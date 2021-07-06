@@ -909,16 +909,12 @@
     node-jose "^2.0.0"
     stripe "^8.142.0"
 
-"@tryghost/members-csv@1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@tryghost/members-csv/-/members-csv-1.1.1.tgz#3bf3866c83a0acc11de2125f20a1cae92beeb07b"
-  integrity sha512-6D0k8CzELtkDyP1bJmDshHYVYS51v/0MQOnTmb2rv0xe6e6xS539fZ5GM7zFORY4KXnFci9BRjC1+G518puxNQ==
+"@tryghost/members-csv@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@tryghost/members-csv/-/members-csv-1.1.0.tgz#883f8b1f6af15134c89a4e406ea9b236c57546d4"
+  integrity sha512-/cgfSW6rcxgA440Nt1/KE/OZR8t8n3SOenST/BhweHS48QqLN0FU7Ku0t8adZPtCzZLvcKfPIfc13hG/SiRtUA==
   dependencies:
-    bluebird "^3.7.2"
-    fs-extra "^10.0.0"
-    lodash "^4.17.21"
     papaparse "5.3.1"
-    pump "^3.0.0"
 
 "@tryghost/members-ssr@1.0.5":
   version "1.0.5"
@@ -7169,7 +7165,7 @@ ncp@~2.0.0:
   resolved "https://registry.yarnpkg.com/ncp/-/ncp-2.0.0.tgz#195a21d6c46e361d2fb1281ba38b91e9df7bdbb3"
   integrity sha1-GVoh1sRuNh0vsSgbo4uR6d9727M=
 
-needle@^2.2.1:
+needle@^2.2.1, needle@^2.5.2:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/needle/-/needle-2.7.0.tgz#90e020b9a1e33253fcf009d22927b130c8b2fd8b"
   integrity sha512-b4f4JgOl7GZVM1p+xuWBAsHwflng1s2yOu9lOThKAzULRW7eqSFYfN4gbuUFOMuE0hVAPWJnSz/90LMOlEGErw==
@@ -8241,7 +8237,16 @@ printj@~1.1.0:
   resolved "https://registry.yarnpkg.com/printj/-/printj-1.1.2.tgz#d90deb2975a8b9f600fb3a1c94e3f4c53c78a222"
   integrity sha512-zA2SmoLaxZyArQTOPj5LXecR+RagfPSU5Kw1qP+jkWeNlrq+eJZyY2oS68SU1Z/7/myXM4lo9716laOFAVStCQ==
 
-probe-image-size@5.0.0, probe-image-size@^5.0.0:
+probe-image-size@7.2.1:
+  version "7.2.1"
+  resolved "https://registry.yarnpkg.com/probe-image-size/-/probe-image-size-7.2.1.tgz#df0c924e67e247bc94f8fcb0fad7f0081061fc44"
+  integrity sha512-d+6L3NvQBCNt4peRDoEfA7r9bPm6/qy18FnLKwg4NWBC5JrJm0pMLRg1kF4XNsPe1bUdt3WIMonPJzQWN2HXjQ==
+  dependencies:
+    lodash.merge "^4.6.2"
+    needle "^2.5.2"
+    stream-parser "~0.3.1"
+
+probe-image-size@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/probe-image-size/-/probe-image-size-5.0.0.tgz#1b87d20340ab8fcdb4324ec77fbc8a5f53419878"
   integrity sha512-V6uBYw5eBc5UVIE7MUZD6Nxg0RYuGDWLDenEn0B1WC6PcTvn1xdQ6HLDDuznefsiExC6rNrCz7mFRBo0f3Xekg==
